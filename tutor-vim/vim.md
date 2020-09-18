@@ -32,3 +32,23 @@
 
 `ctrl+w,r/R` 同一行的窗口
 `ctrl+w,x` 当前窗口与下一个窗口的内容交换
+
+代码折叠:
+`set foldmethod=indent`
+`zo` 打开折叠
+`zc` 折叠
+`za` 切换折叠状态
+
+折叠类型:
+`manual` 手动折叠
+`indent` 基于缩紧折叠
+`expr` 基于正则表达式折叠
+`marker` 使用特殊标记折叠
+`syntax` 提供了可识别的语法折叠
+`diff` 当vim处于diff模式的时候采用这种折叠方式
+
+NERDTree
+`:BookMark` 添加书签
+`B` 展示/隐藏书签
+`let NERDTreeShowBookMarks=1` 设置启动NERDTree的时候展示书签
+`:NERDTreeToggle` 隐藏NERDTree
