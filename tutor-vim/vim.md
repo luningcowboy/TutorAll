@@ -52,3 +52,5 @@ NERDTree
 `B` 展示/隐藏书签
 `let NERDTreeShowBookMarks=1` 设置启动NERDTree的时候展示书签
 `:NERDTreeToggle` 隐藏NERDTree
+
+复制:`ye`
