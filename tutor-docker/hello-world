@@ -1,0 +1,5 @@
+docker run ubuntu:15.10 /bin/echo "hello world"
+docker run -i -t ubuntu:15.10 /bin/bash 
+-t: 在新容器内指定一个伪终端或终端
+-i: 允许你对容器的标准输入(STDIN)
+从终端退出:exit
