@@ -19,7 +19,7 @@ class Program
 
         for(int i = 2; i >= 1; i--)
         {
-            for(int j = 1; j < 3 - 1; j++)
+            for(int j = 1; j < 3 - i; j++)
             {
                 Console.Write(" ");
             }
